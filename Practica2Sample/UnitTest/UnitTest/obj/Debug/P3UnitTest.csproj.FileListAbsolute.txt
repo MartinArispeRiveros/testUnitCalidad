@@ -1,0 +1,7 @@
+F:\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.dll
+F:\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.pdb
+F:\Practica2Sample\UnitTest\UnitTest\bin\Debug\nunit.framework.dll
+F:\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.Properties.Resources.resources
+F:\Practica2Sample\UnitTest\UnitTest\obj\Debug\P3UnitTest.csproj.GenerateResource.Cache
+F:\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.dll
+F:\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.pdb

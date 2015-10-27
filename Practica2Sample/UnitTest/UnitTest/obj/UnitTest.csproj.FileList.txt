@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UnitTest.Properties.Resources.resources
+obj\Debug\UnitTest.csproj.GenerateResource.Cache
+bin\Debug\UnitTest.exe
+bin\Debug\UnitTest.pdb
+obj\Debug\UnitTest.exe
+obj\Debug\UnitTest.pdb

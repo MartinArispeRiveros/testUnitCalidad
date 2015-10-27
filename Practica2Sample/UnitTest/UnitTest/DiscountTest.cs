@@ -10,17 +10,56 @@ namespace UnitTest
      class DiscountTest
     {
         [Test]
-        public void TestTransferFunds()
+        public void TestExceptionwithCero1()
         {
-            Account source = new Account();
-            source.Deposit(200.00F);
-            Account destination = new Account();
-            destination.Deposit(150.00F);
+            Discount discountPrice = new Discount();
+            
+            var ex = Assert.Throws<Exception>(() => discountPrice.calculateDiscount(0));
+            Assert.That(ex.Message, Is.EqualTo("Sales Amount should not be 'Zero/Negative'"));
+           
+        }
 
-            source.TransferFunds(destination, 100.00F);
-            Assert.AreEqual(250.00F, destination.Balance);
-            Assert.AreEqual(100.00F, source.Balance);
 
+       [Test]
+       [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void TestExceptionwithCero()
+        {
+            Discount discountPrice = new Discount();
+            discountPrice.calculateDiscount(0);
+            Assert.Fail("ArgumentException");
+      }
+
+
+
+
+
+        [Test]
+        public void TestDiscountPriceFivePercent()
+        {
+            Discount discountPrice = new Discount();
+            double result = discountPrice.calculateDiscount(1900);
+            Assert.AreEqual(1805, result);
+        }
+        [Test]
+        public void TestDiscountPriceTenPercent()
+        {
+            Discount discountPrice = new Discount();
+            double result = discountPrice.calculateDiscount(2000);
+            Assert.AreEqual(1800, result);
+        }
+        [Test]
+        public void TestDiscountPricefiftyPercent()
+        {
+            Discount discountPrice = new Discount();
+            double result = discountPrice.calculateDiscount(5500);
+            Assert.AreEqual(2750, result);
+        }
+        [Test]
+        public void TestNoDiscount()
+        {
+            Discount discountPrice = new Discount();
+            double result = discountPrice.calculateDiscount(500);
+            Assert.AreEqual(500, result);
         }
     }
 }

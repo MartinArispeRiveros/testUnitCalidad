@@ -1,15 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\user\Desktop\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-10-27" time="17:40:59">
+<test-results name="C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.dll" total="6" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-10-27" time="18:37:08">
   <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="ASUS" user="user" user-domain="ASUS" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\Users\user\Desktop\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.dll" executed="True" result="Success" success="True" time="0.267" asserts="0">
+  <test-suite type="Assembly" name="C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.dll" executed="True" result="Failure" success="False" time="0.369" asserts="0">
     <results>
-      <test-suite type="Namespace" name="UnitTest" executed="True" result="Success" success="True" time="0.205" asserts="0">
+      <test-suite type="Namespace" name="UnitTest" executed="True" result="Failure" success="False" time="0.310" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="AccountTest" executed="True" result="Success" success="True" time="0.193" asserts="0">
+          <test-suite type="TestFixture" name="AccountTest" executed="True" result="Success" success="True" time="0.192" asserts="0">
             <results>
-              <test-case name="UnitTest.AccountTest.TestTransferFunds" executed="True" result="Success" success="True" time="0.135" asserts="2" />
+              <test-case name="UnitTest.AccountTest.TestTransferFunds" executed="True" result="Success" success="True" time="0.132" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="DiscountTest" executed="True" result="Failure" success="False" time="0.096" asserts="0">
+            <results>
+              <test-case name="UnitTest.DiscountTest.TestDiscountPricefiftyPercent" executed="True" result="Success" success="True" time="0.012" asserts="1" />
+              <test-case name="UnitTest.DiscountTest.TestDiscountPriceFivePercent" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="UnitTest.DiscountTest.TestDiscountPriceTenPercent" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="UnitTest.DiscountTest.TestExceptionwithCero" executed="True" result="Failure" success="False" time="0.024" asserts="0">
+                <failure>
+                  <message><![CDATA[An unexpected exception type was thrown
+Expected: System.ArgumentOutOfRangeException
+ but was: System.ArgumentException :  Sales Amount should not be 'Zero/Negative']]></message>
+                  <stack-trace><![CDATA[at UnitTest.Discount.calculateDiscount(Double SalesAmnt) in c:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\Discount.cs:line 18
+at UnitTest.DiscountTest.TestExceptionwithCero() in c:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\DiscountTest.cs:line 20
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="UnitTest.DiscountTest.TestNoDiscount" executed="True" result="Success" success="True" time="0.001" asserts="1" />
             </results>
           </test-suite>
         </results>

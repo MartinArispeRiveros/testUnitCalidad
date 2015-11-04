@@ -29,33 +29,23 @@ namespace UnitTest
       {
           Account source = new Account();
           source.Deposit(200.00F);
-
           Assert.AreEqual(200.00F, source.Balance);
-
+          source.Deposit(200.00F);
+          Assert.AreEqual(400.00F, source.Balance);
       }
       [Test]
       public void TestWithdraw()
       {
           Account source = new Account();
           source.Withdraw(2.00F);
-
           Assert.AreEqual(-2.00F, source.Balance);
-
       }
-      /*[Test]
-      public void TestTransferFoundsIfMinimumBalaceIsMinor()
+
+      [Test]
+      public void TestReturnMinumumBalance()
       {
           Account source = new Account();
-          source.Deposit(90.00F);
-          Account destination = new Account();
-          destination.Deposit(150.00F);
-
-          source.TransferFunds(destination, 100.00F);
-          AssertionException.(source, destination);
-      }*/
-    
-
-
-
+          Assert.AreEqual(10.00F, source.MinimumBalance);
+      }
   }
 }

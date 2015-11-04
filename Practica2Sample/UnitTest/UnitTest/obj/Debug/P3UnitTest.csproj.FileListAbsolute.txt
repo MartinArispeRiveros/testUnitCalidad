@@ -22,3 +22,4 @@ C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.Properti
 C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\P3UnitTest.csproj.GenerateResource.Cache
 C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.dll
 C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.pdb
+C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\P3UnitTest.csprojResolveAssemblyReference.cache

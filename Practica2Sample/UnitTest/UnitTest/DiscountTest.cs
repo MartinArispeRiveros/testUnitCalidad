@@ -18,11 +18,7 @@ namespace UnitTest
             Discount discountPrice = new Discount();
             discountPrice.calculateDiscount(0);
             Assert.Fail("ArgumentException");
-      }
-
-
-
-
+        }
 
         [Test]
         public void TestDiscountPriceFivePercent()

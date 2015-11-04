@@ -5,14 +5,6 @@ F:\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.Properties.Resources.res
 F:\Practica2Sample\UnitTest\UnitTest\obj\Debug\P3UnitTest.csproj.GenerateResource.Cache
 F:\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.dll
 F:\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.pdb
-C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.dll
-C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.pdb
-C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\nunit.framework.dll
-C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\nunit.framework.xml
-C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.Properties.Resources.resources
-C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\P3UnitTest.csproj.GenerateResource.Cache
-C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.dll
-C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.pdb
 D:\Todo de la U\Ingenieria de calidad\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.dll
 D:\Todo de la U\Ingenieria de calidad\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.pdb
 D:\Todo de la U\Ingenieria de calidad\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\nunit.framework.dll
@@ -22,3 +14,11 @@ D:\Todo de la U\Ingenieria de calidad\testUnitCalidad\Practica2Sample\UnitTest\U
 D:\Todo de la U\Ingenieria de calidad\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\P3UnitTest.csproj.GenerateResource.Cache
 D:\Todo de la U\Ingenieria de calidad\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.dll
 D:\Todo de la U\Ingenieria de calidad\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.pdb
+C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.dll
+C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\UnitTest.pdb
+C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\nunit.framework.dll
+C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\bin\Debug\nunit.framework.xml
+C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.Properties.Resources.resources
+C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\P3UnitTest.csproj.GenerateResource.Cache
+C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.dll
+C:\testUnitCalidad\Practica2Sample\UnitTest\UnitTest\obj\Debug\UnitTest.pdb

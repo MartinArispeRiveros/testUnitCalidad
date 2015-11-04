@@ -9,16 +9,7 @@ namespace UnitTest
     [TestFixture]
      class DiscountTest
     {
-        [Test]
-        public void TestExceptionwithCero1()
-        {
-            Discount discountPrice = new Discount();
-            
-            var ex = Assert.Throws<Exception>(() => discountPrice.calculateDiscount(0));
-            Assert.That(ex.Message, Is.EqualTo("Sales Amount should not be 'Zero/Negative'"));
-           
-        }
-
+      
 
        [Test]
        [ExpectedException(typeof(ArgumentOutOfRangeException))]
